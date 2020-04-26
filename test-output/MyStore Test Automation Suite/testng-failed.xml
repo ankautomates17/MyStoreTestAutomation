@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyStore Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="MyStore Test Cases(failed)">
+    <classes>
+      <class name="com.mystore.qa.testcases.MyAccountPageTest">
+        <methods>
+          <include name="validateUserNameTest"/>
+          <include name="setUp"/>
+          <include name="validateHomeLinkTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mystore.qa.testcases.MyAccountPageTest -->
+    </classes>
+  </test> <!-- MyStore Test Cases(failed) -->
+</suite> <!-- Failed suite [MyStore Test Automation Suite] -->
